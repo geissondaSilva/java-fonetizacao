@@ -1,4 +1,4 @@
-# jFonetização em JAVA
+# Fonetização em JAVA
 
 Este projeto é destinado a realizar a fonetização de palavras em java
 
