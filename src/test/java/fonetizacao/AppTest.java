@@ -20,5 +20,9 @@ public class AppTest
         assertEquals(fonetizacao.fonetizar("CASA"), "CAXA");
         assertEquals(fonetizacao.fonetizar("CASSA"), "CAXA");
         assertEquals(fonetizacao.fonetizar("CAÇA"), "CAXA");
+        assertEquals(fonetizacao.fonetizar("RATO"), "RATO");
+        assertEquals(fonetizacao.fonetizar("HATO"), "RATO");
+        assertEquals(fonetizacao.fonetizar("CARRO"), "CARO");
+        assertEquals(fonetizacao.fonetizar("CAHO"), "CARO");
     }
 }

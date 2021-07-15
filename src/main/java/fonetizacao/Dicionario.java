@@ -1,6 +1,5 @@
 package fonetizacao;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Dicionario {
@@ -16,6 +15,8 @@ public class Dicionario {
         words.put("SC", "X");
         words.put("Z", "X");
         words.put("Ç", "X");
+        words.put("RR", "R");
+        words.put("H", "R");
     }
 
     public static Dicionario getInstance() {
